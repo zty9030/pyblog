@@ -1,0 +1,2103 @@
+[
+    {
+        "year": 2000,
+        "color": "#918ECA",
+        "freq": 85,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2000,
+        "color": "#3B23D1",
+        "freq": 64,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2000,
+        "color": "#3306EB",
+        "freq": 78,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2000,
+        "color": "#8FD977",
+        "freq": 99,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2000,
+        "color": "#42E461",
+        "freq": 22,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2000,
+        "color": "#40E926",
+        "freq": 80,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2000,
+        "color": "#4A8264",
+        "freq": 82,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2000,
+        "color": "#288950",
+        "freq": 75,
+        "rank": 8,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2000,
+        "color": "#1E8A48",
+        "freq": 70,
+        "rank": 9,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2000,
+        "color": "#24E485",
+        "freq": 88,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2000,
+        "color": "#CA6C35",
+        "freq": 49,
+        "rank": 11,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2000,
+        "color": "#CE4137",
+        "freq": 96,
+        "rank": 12,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2000,
+        "color": "#190009",
+        "freq": 84,
+        "rank": 13,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2000,
+        "color": "#DE5FA9",
+        "freq": 99,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2000,
+        "color": "#8B2982",
+        "freq": 99,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2000,
+        "color": "#6D19A4",
+        "freq": 21,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2000,
+        "color": "#463245",
+        "freq": 51,
+        "rank": 17,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2000,
+        "color": "#C5873E",
+        "freq": 40,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2000,
+        "color": "#77861B",
+        "freq": 8,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2000,
+        "color": "#3A4606",
+        "freq": 56,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2001,
+        "color": "#D2BEFB",
+        "freq": 77,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2001,
+        "color": "#A3A0CC",
+        "freq": 27,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2001,
+        "color": "#5371AF",
+        "freq": 72,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2001,
+        "color": "#8EB888",
+        "freq": 71,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2001,
+        "color": "#7AE063",
+        "freq": 65,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2001,
+        "color": "#72FB08",
+        "freq": 50,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2001,
+        "color": "#78A651",
+        "freq": 88,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2001,
+        "color": "#80E1F2",
+        "freq": 59,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2001,
+        "color": "#45EFF7",
+        "freq": 50,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2001,
+        "color": "#8CC3D8",
+        "freq": 53,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2001,
+        "color": "#57FAB8",
+        "freq": 79,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2001,
+        "color": "#287C94",
+        "freq": 58,
+        "rank": 12,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2001,
+        "color": "#1CA462",
+        "freq": 2,
+        "rank": 13,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2001,
+        "color": "#754446",
+        "freq": 16,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2001,
+        "color": "#A66BD3",
+        "freq": 62,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2001,
+        "color": "#9B3B7E",
+        "freq": 72,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2001,
+        "color": "#6D08C5",
+        "freq": 63,
+        "rank": 17,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2001,
+        "color": "#E4A13E",
+        "freq": 63,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2001,
+        "color": "#B9CF26",
+        "freq": 81,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2001,
+        "color": "#424122",
+        "freq": 28,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2002,
+        "color": "#4A5D9C",
+        "freq": 77,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2002,
+        "color": "#194488",
+        "freq": 43,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2002,
+        "color": "#241B9E",
+        "freq": 18,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2002,
+        "color": "#41F779",
+        "freq": 52,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2002,
+        "color": "#70BE59",
+        "freq": 4,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2002,
+        "color": "#8ACEB8",
+        "freq": 60,
+        "rank": 6,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2002,
+        "color": "#5C91B6",
+        "freq": 18,
+        "rank": 7,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2002,
+        "color": "#23D7A2",
+        "freq": 11,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2002,
+        "color": "#1DAD9D",
+        "freq": 50,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2002,
+        "color": "#AD1B4D",
+        "freq": 79,
+        "rank": 10,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2002,
+        "color": "#73042E",
+        "freq": 92,
+        "rank": 11,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2002,
+        "color": "#B97D9C",
+        "freq": 80,
+        "rank": 12,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2002,
+        "color": "#BC2CCF",
+        "freq": 14,
+        "rank": 13,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2002,
+        "color": "#D82895",
+        "freq": 35,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2002,
+        "color": "#DCCA9D",
+        "freq": 35,
+        "rank": 15,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2002,
+        "color": "#E1C794",
+        "freq": 80,
+        "rank": 16,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2002,
+        "color": "#C4EC2F",
+        "freq": 73,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2002,
+        "color": "#B0F32C",
+        "freq": 85,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2002,
+        "color": "#E9C503",
+        "freq": 16,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2002,
+        "color": "#95EE1E",
+        "freq": 33,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2003,
+        "color": "#731EFC",
+        "freq": 27,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2003,
+        "color": "#5B1DDE",
+        "freq": 86,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2003,
+        "color": "#0345F8",
+        "freq": 62,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2003,
+        "color": "#0E4DE5",
+        "freq": 23,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2003,
+        "color": "#83948B",
+        "freq": 97,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2003,
+        "color": "#24FB81",
+        "freq": 93,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2003,
+        "color": "#3AD878",
+        "freq": 51,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2003,
+        "color": "#24DD61",
+        "freq": 81,
+        "rank": 8,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2003,
+        "color": "#16AC2F",
+        "freq": 56,
+        "rank": 9,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2003,
+        "color": "#37851E",
+        "freq": 92,
+        "rank": 10,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2003,
+        "color": "#16B19A",
+        "freq": 44,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2003,
+        "color": "#2673BB",
+        "freq": 22,
+        "rank": 12,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2003,
+        "color": "#1A6386",
+        "freq": 8,
+        "rank": 13,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2003,
+        "color": "#F98721",
+        "freq": 97,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2003,
+        "color": "#B6326F",
+        "freq": 9,
+        "rank": 15,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2003,
+        "color": "#9C4C7B",
+        "freq": 37,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2003,
+        "color": "#F5D87B",
+        "freq": 63,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2003,
+        "color": "#FBE503",
+        "freq": 1,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2003,
+        "color": "#DEC13D",
+        "freq": 15,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2003,
+        "color": "#B8C820",
+        "freq": 84,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2004,
+        "color": "#9C93CD",
+        "freq": 93,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2004,
+        "color": "#3327C2",
+        "freq": 27,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2004,
+        "color": "#262FBE",
+        "freq": 23,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2004,
+        "color": "#3000BF",
+        "freq": 36,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2004,
+        "color": "#65E175",
+        "freq": 57,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2004,
+        "color": "#65CF47",
+        "freq": 48,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2004,
+        "color": "#33A62A",
+        "freq": 99,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2004,
+        "color": "#169047",
+        "freq": 32,
+        "rank": 8,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2004,
+        "color": "#49EBA1",
+        "freq": 97,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2004,
+        "color": "#05A2E7",
+        "freq": 36,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2004,
+        "color": "#035AA6",
+        "freq": 87,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2004,
+        "color": "#D35609",
+        "freq": 29,
+        "rank": 12,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2004,
+        "color": "#4A3D36",
+        "freq": 63,
+        "rank": 13,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2004,
+        "color": "#D855CA",
+        "freq": 80,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2004,
+        "color": "#F12CC1",
+        "freq": 22,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2004,
+        "color": "#840367",
+        "freq": 73,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2004,
+        "color": "#3D144A",
+        "freq": 92,
+        "rank": 17,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2004,
+        "color": "#DED655",
+        "freq": 18,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2004,
+        "color": "#CFAA3B",
+        "freq": 91,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2004,
+        "color": "#96CA4B",
+        "freq": 48,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2005,
+        "color": "#738CF0",
+        "freq": 45,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2005,
+        "color": "#8233FA",
+        "freq": 68,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2005,
+        "color": "#764DB3",
+        "freq": 80,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2005,
+        "color": "#344BDD",
+        "freq": 31,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2005,
+        "color": "#5ECB2D",
+        "freq": 25,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2005,
+        "color": "#527E50",
+        "freq": 52,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2005,
+        "color": "#449711",
+        "freq": 61,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2005,
+        "color": "#08A90B",
+        "freq": 36,
+        "rank": 8,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2005,
+        "color": "#16A17D",
+        "freq": 100,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2005,
+        "color": "#D26E4C",
+        "freq": 69,
+        "rank": 10,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2005,
+        "color": "#65391F",
+        "freq": 40,
+        "rank": 11,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2005,
+        "color": "#B050C3",
+        "freq": 18,
+        "rank": 12,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2005,
+        "color": "#A158C9",
+        "freq": 69,
+        "rank": 13,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2005,
+        "color": "#BB38B2",
+        "freq": 32,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2005,
+        "color": "#8D22D7",
+        "freq": 8,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2005,
+        "color": "#6D045C",
+        "freq": 52,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2005,
+        "color": "#C9FF8C",
+        "freq": 62,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2005,
+        "color": "#B2D282",
+        "freq": 61,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2005,
+        "color": "#99D03F",
+        "freq": 44,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2005,
+        "color": "#A4D300",
+        "freq": 100,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2006,
+        "color": "#6E08FA",
+        "freq": 44,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2006,
+        "color": "#26384C",
+        "freq": 59,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2006,
+        "color": "#D1F4B7",
+        "freq": 79,
+        "rank": 3,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2006,
+        "color": "#7CC482",
+        "freq": 19,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2006,
+        "color": "#6E7E6C",
+        "freq": 20,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2006,
+        "color": "#00E257",
+        "freq": 9,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2006,
+        "color": "#42A54C",
+        "freq": 2,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2006,
+        "color": "#25DDF0",
+        "freq": 38,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2006,
+        "color": "#0283EC",
+        "freq": 1,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2006,
+        "color": "#1E7DD4",
+        "freq": 51,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2006,
+        "color": "#19A661",
+        "freq": 48,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2006,
+        "color": "#344B4A",
+        "freq": 62,
+        "rank": 12,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2006,
+        "color": "#E79D73",
+        "freq": 68,
+        "rank": 13,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2006,
+        "color": "#DD8126",
+        "freq": 36,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2006,
+        "color": "#B14D6D",
+        "freq": 42,
+        "rank": 15,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2006,
+        "color": "#B82E11",
+        "freq": 40,
+        "rank": 16,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2006,
+        "color": "#4B0A1C",
+        "freq": 71,
+        "rank": 17,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2006,
+        "color": "#BE8DC4",
+        "freq": 100,
+        "rank": 18,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2006,
+        "color": "#CB7CB5",
+        "freq": 43,
+        "rank": 19,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2006,
+        "color": "#EDF327",
+        "freq": 59,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2007,
+        "color": "#B6AEDB",
+        "freq": 60,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#8551D2",
+        "freq": 33,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#365BF9",
+        "freq": 47,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#584CC7",
+        "freq": 67,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#6741BF",
+        "freq": 66,
+        "rank": 5,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#4150D4",
+        "freq": 57,
+        "rank": 6,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#2707E3",
+        "freq": 58,
+        "rank": 7,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#49387D",
+        "freq": 76,
+        "rank": 8,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2007,
+        "color": "#317126",
+        "freq": 39,
+        "rank": 9,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2007,
+        "color": "#2FB1E4",
+        "freq": 6,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2007,
+        "color": "#5E0206",
+        "freq": 26,
+        "rank": 11,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2007,
+        "color": "#D798BA",
+        "freq": 93,
+        "rank": 12,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2007,
+        "color": "#FC28B0",
+        "freq": 47,
+        "rank": 13,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2007,
+        "color": "#A55AB3",
+        "freq": 77,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2007,
+        "color": "#A905B0",
+        "freq": 87,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2007,
+        "color": "#F0CC1E",
+        "freq": 76,
+        "rank": 16,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2007,
+        "color": "#D3A450",
+        "freq": 42,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2007,
+        "color": "#C6A25C",
+        "freq": 55,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2007,
+        "color": "#B8C610",
+        "freq": 33,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2007,
+        "color": "#82F50B",
+        "freq": 49,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2008,
+        "color": "#4485F4",
+        "freq": 19,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2008,
+        "color": "#83E073",
+        "freq": 10,
+        "rank": 2,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2008,
+        "color": "#68C241",
+        "freq": 65,
+        "rank": 3,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2008,
+        "color": "#6AD112",
+        "freq": 45,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2008,
+        "color": "#435C38",
+        "freq": 49,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2008,
+        "color": "#67BCB9",
+        "freq": 82,
+        "rank": 6,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2008,
+        "color": "#21A9A9",
+        "freq": 92,
+        "rank": 7,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2008,
+        "color": "#1B869B",
+        "freq": 34,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2008,
+        "color": "#7E606F",
+        "freq": 52,
+        "rank": 9,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2008,
+        "color": "#684B53",
+        "freq": 37,
+        "rank": 10,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2008,
+        "color": "#D785F6",
+        "freq": 15,
+        "rank": 11,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#E962F5",
+        "freq": 46,
+        "rank": 12,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#FC0ACC",
+        "freq": 96,
+        "rank": 13,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#C56A9B",
+        "freq": 10,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#ED0D91",
+        "freq": 38,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#804B74",
+        "freq": 15,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#62017C",
+        "freq": 43,
+        "rank": 17,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2008,
+        "color": "#B69F6D",
+        "freq": 99,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2008,
+        "color": "#B3C41A",
+        "freq": 59,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2008,
+        "color": "#A39DA9",
+        "freq": 69,
+        "rank": 20,
+        "chrome_rank": 7
+    },
+    {
+        "year": 2009,
+        "color": "#587CFD",
+        "freq": 46,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2009,
+        "color": "#535ABB",
+        "freq": 5,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2009,
+        "color": "#456499",
+        "freq": 84,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2009,
+        "color": "#020EFE",
+        "freq": 11,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2009,
+        "color": "#ABDA9F",
+        "freq": 51,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2009,
+        "color": "#6D974F",
+        "freq": 56,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2009,
+        "color": "#DBF6F0",
+        "freq": 97,
+        "rank": 7,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2009,
+        "color": "#6CC2DE",
+        "freq": 58,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2009,
+        "color": "#00E590",
+        "freq": 88,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2009,
+        "color": "#127EB8",
+        "freq": 83,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2009,
+        "color": "#ECAC80",
+        "freq": 94,
+        "rank": 11,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2009,
+        "color": "#9F4530",
+        "freq": 83,
+        "rank": 12,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2009,
+        "color": "#B92C18",
+        "freq": 43,
+        "rank": 13,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2009,
+        "color": "#562119",
+        "freq": 15,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2009,
+        "color": "#C92AF2",
+        "freq": 51,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2009,
+        "color": "#BC008B",
+        "freq": 24,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2009,
+        "color": "#C0F94C",
+        "freq": 70,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2009,
+        "color": "#C3F319",
+        "freq": 92,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2009,
+        "color": "#D2F300",
+        "freq": 12,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2009,
+        "color": "#C4DC0C",
+        "freq": 49,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2010,
+        "color": "#B3A4D0",
+        "freq": 16,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2010,
+        "color": "#898AB5",
+        "freq": 43,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2010,
+        "color": "#6461C7",
+        "freq": 35,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2010,
+        "color": "#7D13F9",
+        "freq": 41,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2010,
+        "color": "#2427F9",
+        "freq": 96,
+        "rank": 5,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2010,
+        "color": "#5104C4",
+        "freq": 24,
+        "rank": 6,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2010,
+        "color": "#49D37F",
+        "freq": 30,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2010,
+        "color": "#388E0B",
+        "freq": 42,
+        "rank": 8,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2010,
+        "color": "#0596CE",
+        "freq": 86,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2010,
+        "color": "#4D8690",
+        "freq": 16,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2010,
+        "color": "#368B86",
+        "freq": 11,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2010,
+        "color": "#CB8EA6",
+        "freq": 83,
+        "rank": 12,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2010,
+        "color": "#F26A76",
+        "freq": 14,
+        "rank": 13,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2010,
+        "color": "#FF207B",
+        "freq": 96,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2010,
+        "color": "#BD256A",
+        "freq": 92,
+        "rank": 15,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2010,
+        "color": "#581505",
+        "freq": 91,
+        "rank": 16,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2010,
+        "color": "#D035D4",
+        "freq": 23,
+        "rank": 17,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2010,
+        "color": "#BA759F",
+        "freq": 19,
+        "rank": 18,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2010,
+        "color": "#D000AE",
+        "freq": 72,
+        "rank": 19,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2010,
+        "color": "#E8AC1D",
+        "freq": 60,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2011,
+        "color": "#7F8AF9",
+        "freq": 97,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2011,
+        "color": "#5F48FA",
+        "freq": 82,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2011,
+        "color": "#2D7ED2",
+        "freq": 23,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2011,
+        "color": "#0C27AB",
+        "freq": 14,
+        "rank": 4,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2011,
+        "color": "#66E856",
+        "freq": 19,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2011,
+        "color": "#32AA2D",
+        "freq": 23,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2011,
+        "color": "#35724A",
+        "freq": 63,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2011,
+        "color": "#5FA3B4",
+        "freq": 30,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2011,
+        "color": "#44708A",
+        "freq": 14,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2011,
+        "color": "#334245",
+        "freq": 21,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2011,
+        "color": "#272D31",
+        "freq": 76,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2011,
+        "color": "#FA559F",
+        "freq": 70,
+        "rank": 12,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2011,
+        "color": "#B5754B",
+        "freq": 66,
+        "rank": 13,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2011,
+        "color": "#AA5448",
+        "freq": 85,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2011,
+        "color": "#9523DF",
+        "freq": 75,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2011,
+        "color": "#AC1FAB",
+        "freq": 66,
+        "rank": 16,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2011,
+        "color": "#E5137E",
+        "freq": 70,
+        "rank": 17,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2011,
+        "color": "#231B21",
+        "freq": 66,
+        "rank": 18,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2011,
+        "color": "#CBBE31",
+        "freq": 49,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2011,
+        "color": "#6A6013",
+        "freq": 39,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#2E41B3",
+        "freq": 43,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2012,
+        "color": "#3C388D",
+        "freq": 79,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2012,
+        "color": "#C7F4B1",
+        "freq": 50,
+        "rank": 3,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2012,
+        "color": "#5FE72B",
+        "freq": 37,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2012,
+        "color": "#2CC652",
+        "freq": 64,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2012,
+        "color": "#36F2A9",
+        "freq": 85,
+        "rank": 6,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2012,
+        "color": "#23F99F",
+        "freq": 19,
+        "rank": 7,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2012,
+        "color": "#5CB190",
+        "freq": 73,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2012,
+        "color": "#D65C47",
+        "freq": 22,
+        "rank": 9,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2012,
+        "color": "#FD1250",
+        "freq": 17,
+        "rank": 10,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2012,
+        "color": "#DE5FB5",
+        "freq": 53,
+        "rank": 11,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2012,
+        "color": "#B830E5",
+        "freq": 64,
+        "rank": 12,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2012,
+        "color": "#793880",
+        "freq": 76,
+        "rank": 13,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2012,
+        "color": "#8DA273",
+        "freq": 73,
+        "rank": 14,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#B49658",
+        "freq": 79,
+        "rank": 15,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#B29D4E",
+        "freq": 3,
+        "rank": 16,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#854D08",
+        "freq": 80,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#7E4302",
+        "freq": 75,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#414703",
+        "freq": 21,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2012,
+        "color": "#A3A497",
+        "freq": 50,
+        "rank": 20,
+        "chrome_rank": 7
+    },
+    {
+        "year": 2013,
+        "color": "#24578F",
+        "freq": 88,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2013,
+        "color": "#1C0CA5",
+        "freq": 14,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2013,
+        "color": "#08297E",
+        "freq": 35,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2013,
+        "color": "#9DF0B6",
+        "freq": 86,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2013,
+        "color": "#4EC217",
+        "freq": 41,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2013,
+        "color": "#15C80F",
+        "freq": 28,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2013,
+        "color": "#56E4D9",
+        "freq": 93,
+        "rank": 7,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2013,
+        "color": "#2ECEF9",
+        "freq": 49,
+        "rank": 8,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2013,
+        "color": "#749EAE",
+        "freq": 91,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2013,
+        "color": "#ED6350",
+        "freq": 39,
+        "rank": 10,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2013,
+        "color": "#6D1B2E",
+        "freq": 42,
+        "rank": 11,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2013,
+        "color": "#24020D",
+        "freq": 33,
+        "rank": 12,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2013,
+        "color": "#A651E9",
+        "freq": 41,
+        "rank": 13,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2013,
+        "color": "#69028C",
+        "freq": 79,
+        "rank": 14,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2013,
+        "color": "#4D0A7C",
+        "freq": 28,
+        "rank": 15,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2013,
+        "color": "#E7EA79",
+        "freq": 90,
+        "rank": 16,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2013,
+        "color": "#CEF83F",
+        "freq": 76,
+        "rank": 17,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2013,
+        "color": "#F9D430",
+        "freq": 66,
+        "rank": 18,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2013,
+        "color": "#F98C04",
+        "freq": 88,
+        "rank": 19,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2013,
+        "color": "#6B7C1C",
+        "freq": 3,
+        "rank": 20,
+        "chrome_rank": 6
+    },
+    {
+        "year": 2014,
+        "color": "#9998F4",
+        "freq": 81,
+        "rank": 1,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2014,
+        "color": "#729ACC",
+        "freq": 36,
+        "rank": 2,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2014,
+        "color": "#495FD9",
+        "freq": 73,
+        "rank": 3,
+        "chrome_rank": 1
+    },
+    {
+        "year": 2014,
+        "color": "#D3ECD6",
+        "freq": 21,
+        "rank": 4,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2014,
+        "color": "#9FFD63",
+        "freq": 84,
+        "rank": 5,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2014,
+        "color": "#53E075",
+        "freq": 15,
+        "rank": 6,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2014,
+        "color": "#71EF15",
+        "freq": 72,
+        "rank": 7,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2014,
+        "color": "#012D12",
+        "freq": 39,
+        "rank": 8,
+        "chrome_rank": 2
+    },
+    {
+        "year": 2014,
+        "color": "#35D7CE",
+        "freq": 95,
+        "rank": 9,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2014,
+        "color": "#17BDA9",
+        "freq": 94,
+        "rank": 10,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2014,
+        "color": "#419B76",
+        "freq": 72,
+        "rank": 11,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2014,
+        "color": "#218E9F",
+        "freq": 27,
+        "rank": 12,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2014,
+        "color": "#139D74",
+        "freq": 77,
+        "rank": 13,
+        "chrome_rank": 3
+    },
+    {
+        "year": 2014,
+        "color": "#FF653C",
+        "freq": 32,
+        "rank": 14,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2014,
+        "color": "#ED495D",
+        "freq": 88,
+        "rank": 15,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2014,
+        "color": "#E82326",
+        "freq": 100,
+        "rank": 16,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2014,
+        "color": "#670C00",
+        "freq": 75,
+        "rank": 17,
+        "chrome_rank": 4
+    },
+    {
+        "year": 2014,
+        "color": "#C444D7",
+        "freq": 60,
+        "rank": 18,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2014,
+        "color": "#933BD0",
+        "freq": 2,
+        "rank": 19,
+        "chrome_rank": 5
+    },
+    {
+        "year": 2014,
+        "color": "#E7CF4E",
+        "freq": 85,
+        "rank": 20,
+        "chrome_rank": 6
+    }
+]
+

@@ -1,3 +1,3 @@
 # pyblog
-======
-## Web based tweet analyzer with Watson API
+=======
+Web based tweet analyzer with Watson API

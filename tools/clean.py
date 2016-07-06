@@ -19,6 +19,7 @@ def clean_tweets(s):
     s = s.lower().split()
     #s = s.encode('utf-8', errors = 'ignore')
     s = [word for word in s if not word in stopwords]
+    s = [word for word in s if len(word) > 2]
     s = ' '.join(s)
     return s
 

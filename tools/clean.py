@@ -16,6 +16,7 @@ def clean_tweets(s):
     s = re.sub('http.+( |$)',' ', s)
     s = re.sub('[^A-Za-z]', ' ', s)  
     s = s.replace('RT', ' ')
+    s = s.replace('amp', ' ')
     s = s.lower().split()
     #s = s.encode('utf-8', errors = 'ignore')
     s = [word for word in s if not word in stopwords]

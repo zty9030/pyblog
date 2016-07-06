@@ -11,9 +11,10 @@
 
   <body>
     <script type="text/javascript">
-    {% for result in results %}
-      console.log("{{result}}");
-    {% endfor %}
+    //console.log('{{term}}')
+    // {% for result in results %}
+    //   console.log("{{result}}");
+    // {% endfor %}
     </script>
     <table>
       <tr>
@@ -21,13 +22,15 @@
         <td>
             <h1>Hi there!</h1>
             <form action="{{ url_for('search') }}" method="post" class="search">
-            <p>Enter Search:</p><input type="text" size="30" name="term">
-            <input type="submit" value="Search">
+            <p>Enter Search:</p><input type="text" size="30" name="term" value="{{results.term}}">
+            <input type="submit" value="Search" >
             </form>
-          <p>Thanks for creating a
-            <span class = "blue">Python Flask Starter Application</span>.
+            <a href="{{url_for('analysis')}}">Click here to Analysis</a>
+          <p>Search Term:{{results.term}}</p>
+          <p>Orignal Number of Tweets: {{results.onum}}</p>
+          <p>Number after cleaning : {{results.fnum}}</p>
           <ul>
-          {% for result in results %}
+          {% for result in results.tweet %}
           <li>{{ result }}</li>
           {% endfor %}
           </ul>

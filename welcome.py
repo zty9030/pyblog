@@ -16,17 +16,19 @@
 # limitations under the License.
 
 from tools.search import searchterm
+from tools.clean import clean_tweets,drop_duplicate
+from tools.analysis import bagofword
 
 import os
 from flask import Flask, request, session, g, redirect, url_for, abort, \
 render_template, flash
 
 import re
+import json
 
 
-
-RESULT=['aaaaaa','bbbbbbbbb','ccccccccc']
-
+RESULT={'tweet':['a','bb','ccc','a bb ee ccc'],'term':''}
+ANALYSIS = {}
 
 app = Flask(__name__)
 
@@ -37,17 +39,23 @@ def Welcome():
 @app.route('/search',methods=['POST'])
 def search():
 	global RESULT
-	term = request.form['term']
-	if term=='':
-		RESULT=[]
+	RESULT['term'] = request.form['term']
+	if RESULT['term']=='':
+		RESULT['tweet']=[]
 	else:
-		RESULT = searchterm(term)
+		RESULT['tweet']= [clean_tweets(i) for i in searchterm(RESULT['term'])]
+		RESULT['onum'] = len(RESULT['tweet'])
+		RESULT['tweet'] = drop_duplicate(RESULT['tweet'])
+		RESULT['fnum'] = len(RESULT['tweet'])
 	return redirect(url_for('Welcome'))
 
-@app.route('/line')
-def line():
-	return app.send_static_file('linechart.html')
+@app.route('/analysis')
+def  analysis():
+	global ANALYSIS
+	ANALYSIS['bag'] = bagofword(RESULT['tweet'],1)
+	ANALYSIS['bag'] = json.dumps(ANALYSIS['bag'])
+	return render_template("analysis.html",analysis=ANALYSIS)
 
 port = os.getenv('PORT', '5000')
 if __name__ == "__main__":
-	app.run(port=int(port))
+	app.run(host='0.0.0.0',port=int(port))

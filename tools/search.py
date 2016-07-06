@@ -13,7 +13,7 @@ def searchterm(term):
 	search = {'q':term,'lang':'en','count':100}
 	j = 0;
 	result = []
-	while j<2000:
+	while j<200:
 		r = api.request('search/tweets', search)
 		for item in r:
 			search['max_id']= item['id']

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analysis</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/stylesheets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- <script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="static/js/d3.layout.cloud.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="static/jqcloud/jqcloud.css" />
+ 	<script type="text/javascript" src="static/jqcloud/jqcloud-1.0.4.js"></script>
+
+	<script src="https://as.alipayobjects.com/g/datavis/g2/1.2.5/index.js"></script>
+	<script type="text/javascript">
+		$(function() {
+        	$("#c2").jQCloud(bagresult);
+      	});
+	</script>
+</head>
+<body>
+
+<h1>Results:</h1>
+<div id="c1"></div>
+<div id="c2" style="width: 550px; height: 350px; border: 1px solid #ccc;"></div>
+
+<script type="text/javascript">
+	function idoit(text){
+		return text.replace(new RegExp('&#34;','g'),'"')
+	};
+	var bagresult = JSON.parse(idoit('{{analysis.bag}}'));
+
+	var Stat = G2.Stat;
+	var Frame = G2.Frame;
+	var frame = new Frame(bagresult);
+
+	frame = Frame.sort(frame, 'weight'); // 将数据按照population 进行排序，由大到小
+
+	var chart = new G2.Chart({
+	  id : 'c1',
+	  width : 1000,
+	  height : 500,
+	  plotCfg: {
+	    margin: [20, 60, 80, 120]
+	  }
+	});
+
+	chart.source(frame);
+	chart.axis('text',{
+	  title: null
+	});
+	chart.coord('rect').transpose();
+	chart.interval().position('text*weight');
+	chart.render();
+
+	console.log(bagresult)
+	// $('#demo').jQCloud(bagresult);
+	</script>
+
+</body>
+</html>

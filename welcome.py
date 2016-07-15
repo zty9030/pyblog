@@ -18,6 +18,7 @@
 from tools.search import searchterm
 from tools.clean import clean_tweets,drop_duplicate
 from tools.analysis import bagofword
+from tools.watson_tone import tone
 
 import os
 from flask import Flask, request, session, g, redirect, url_for, abort, \
@@ -54,6 +55,7 @@ def  analysis():
 	global ANALYSIS
 	ANALYSIS['bag'] = bagofword(RESULT['tweet'],1)
 	ANALYSIS['bag'] = json.dumps(ANALYSIS['bag'])
+	ANALYSIS['tone'] = tone('\n'.join(RESULT['tweet']))
 	return render_template("analysis.html",analysis=ANALYSIS)
 
 port = os.getenv('PORT', '5000')

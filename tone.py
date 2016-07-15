@@ -1,10 +1,10 @@
 import json
-from watson_developer_cloud import ToneAnalyzerV3Beta
+from watson_developer_cloud import ToneAnalyzerV3
 
-tone_analyzer = ToneAnalyzerV3Beta(
-   username='ef1151ed-416c-4839-9d46-410d0fcd1c58',
-   password='x2UemSriWcam',
-   version='2016-05-19')
+tone_analyzer = ToneAnalyzerV3(
+   password =  "FwdYI5O0TaGY",
+   username =  "be8de89c-f720-43eb-beec-9f52093bdb6a",
+   version ='2016-05-19')
 
 t = open('test.txt','r').read()
 

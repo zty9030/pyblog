@@ -8,19 +8,28 @@
   <!-- <link rel="stylesheet" href="static/stylesheets/style.css"> -->
    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://d3js.org/d3.v3.min.js"></script>
-	<!-- <script src="http://d3js.org/d3.v3.min.js"></script>
-	<script src="static/js/d3.layout.cloud.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="static/jqcloud/jqcloud.css" />
- 	<script type="text/javascript" src="static/jqcloud/jqcloud-1.0.4.js"></script>
+<!--     <link rel="stylesheet" type="text/css" href="../static/jqcloud/jqcloud.css" />
 
+  <script type="text/javascript" src="../static/jqcloud/jqcloud-1.0.4.js"></script>  -->
+
+     <link rel="stylesheet" type="text/css" href="static/jqcloud/jqcloud.css" />
+  <script type="text/javascript" src="static/jqcloud/jqcloud-1.0.4.js"></script>
+  
 	<script src="https://as.alipayobjects.com/g/datavis/g2/1.2.5/index.js"></script>
   <style type="text/css">
-    section{
-      margin: auto;
+    #jqcloud{
+      width: 550px;
+      height: 350px;
+      border: 1px solid #ccc;
+    }
+    
+    div.row {
+      margin-bottom: 5px; 
+      /*border: 1px solid;*/
     }
     div.back{
-      width: 200px;
+      /*float: left;*/
+      max-width: 200px;
       height: 25px;
       background-color:#cccccc; 
       position:relative;
@@ -34,10 +43,12 @@
       top: 0px
     }
   </style>
+
+
 	<script type="text/javascript">
 		$(function() {
-        	$("#c2").jQCloud(bagresult);
-      	});
+        	$("#jqcloud").jQCloud(bagresult);
+    });
 	</script>
 </head>
 <body>
@@ -45,28 +56,31 @@
 <h1 class="text-center">Results</h1>
 <h2>Word Cloud</h2>
 <div id="c1"></div>
-<div id="c2"></div>
+<div id="jqcloud"></div>
 <h2>Sentiment Analysis</h2>
 <div class="container-fluid">
   <div class="row">
-    <section id="emotion" class="col-md-4"><p class="text-center">Test positon Here </p>
-      <div id="emotion">
-      </div>
-      
-    </section>
-    <section class="col-md-4"><p class="text-center">Test positon Here </p></section>
-    <section class="col-md-4"><p class="text-center">Test positon Here </p></section>
+    <section id="emotion" class="col-md-4"><p class="text-center">Emotion </p></section>
+    <section id="language" class="col-md-4"><p class="text-center">Language Style</p></section>
+    <section id="social" class="col-md-4"><p class="text-center">Social Tendencies</p></section>
   </div> 
     </div>
-<p class="text-center">
-	{{analysis.tone}}
-</p>
 
 <script type="text/javascript">
 	function idoit(text){
 		return text.replace(new RegExp('&#34;','g'),'"')
 	};
 	var bagresult = JSON.parse(idoit('{{analysis.bag}}'));
+  // var bagresult = [
+  // {text: "Lorem", weight: 13},
+  // {text: "Ipsum", weight: 10.5},
+  // {text: "Dolor", weight: 9.4},
+  // {text: "Sit", weight: 8},
+  // {text: "Amet", weight: 6.2},
+  // {text: "Consectetur", weight: 5},
+  // {text: "Adipiscing", weight: 5},
+  // /* ... */
+  //   ];
 
 	var Stat = G2.Stat;
 	var Frame = G2.Frame;
@@ -76,7 +90,7 @@
 
 	var chart = new G2.Chart({
 	  id : 'c1',
-	  width : 1000,
+	  width : 800,
 	  height : 500,
 	  plotCfg: {
 	    margin: [20, 60, 80, 120]
@@ -92,23 +106,25 @@
 	chart.render();
 
 	console.log(bagresult)
+
 	// $('#demo').jQCloud(bagresult);
 	</script>
   <!-- 3 fucking barresult -->
   <script type="text/javascript">
-    var str = '{    "tone_categories": [      {        "category_id": "emotion_tone",         "tones": [          {            "tone_name": "Anger",             "score": 0.97788,             "tone_id": "anger"          },           {            "tone_name": "Disgust",             "score": 0.12229,             "tone_id": "disgust"          },           {            "tone_name": "Fear",             "score": 0.679062,             "tone_id": "fear"          },           {            "tone_name": "Joy",             "score": 0.033315,             "tone_id": "joy"          },           {            "tone_name": "Sadness",             "score": 0.059578,             "tone_id": "sadness"          }        ],         "category_name": "Emotion Tone"      },       {        "category_id": "language_tone",         "tones": [          {            "tone_name": "Analytical",             "score": 0.253,             "tone_id": "analytical"          },           {            "tone_name": "Confident",             "score": 0.0,             "tone_id": "confident"          },           {            "tone_name": "Tentative",             "score": 0.626,             "tone_id": "tentative"          }        ],         "category_name": "Language Tone"      },       {        "category_id": "social_tone",         "tones": [          {            "tone_name": "Openness",             "score": 0.038,             "tone_id": "openness_big5"          },           {            "tone_name": "Conscientiousness",             "score": 0.061,             "tone_id": "conscientiousness_big5"          },           {            "tone_name": "Extraversion",             "score": 0.909,             "tone_id": "extraversion_big5"          },           {            "tone_name": "Agreeableness",             "score": 0.741,             "tone_id": "agreeableness_big5"          },           {            "tone_name": "Emotional Range",             "score": 0.821,             "tone_id": "emotional_range_big5"          }        ],         "category_name": "Social Tone"      }    ]  }';
+    var str = '{{analysis.tone}}'
+     //var str = '{    "tone_categories": [      {        "category_id": "emotion_tone",         "tones": [          {            "tone_name": "Anger",             "score": 0.97788,             "tone_id": "anger"          },           {            "tone_name": "Disgust",             "score": 0.12229,             "tone_id": "disgust"          },           {            "tone_name": "Fear",             "score": 0.679062,             "tone_id": "fear"          },           {            "tone_name": "Joy",             "score": 0.033315,             "tone_id": "joy"          },           {            "tone_name": "Sadness",             "score": 0.059578,             "tone_id": "sadness"          }        ],         "category_name": "Emotion Tone"      },       {        "category_id": "language_tone",         "tones": [          {            "tone_name": "Analytical",             "score": 0.253,             "tone_id": "analytical"          },           {            "tone_name": "Confident",             "score": 0.0,             "tone_id": "confident"          },           {            "tone_name": "Tentative",             "score": 0.626,             "tone_id": "tentative"          }        ],         "category_name": "Language Tone"      },       {        "category_id": "social_tone",         "tones": [          {            "tone_name": "Openness",             "score": 0.038,             "tone_id": "openness_big5"          },           {            "tone_name": "Conscientiousness",             "score": 0.061,             "tone_id": "conscientiousness_big5"          },           {            "tone_name": "Extraversion",             "score": 0.909,             "tone_id": "extraversion_big5"          },           {            "tone_name": "Agreeableness",             "score": 0.741,             "tone_id": "agreeableness_big5"          },           {            "tone_name": "Emotional Range",             "score": 0.821,             "tone_id": "emotional_range_big5"          }        ],         "category_name": "Social Tone"      }    ]  }';
     var bar  = JSON.parse(idoit(str));
     // console.log(bar)
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = window.innerWidth/3 - margin.left - margin.right,
     height = 250 - margin.top - margin.bottom;
 
-    var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .1);
+    // var x = d3.scale.ordinal()
+    // .rangeRoundBands([0, width], .1);
 
-    var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom");
+    // var xAxis = d3.svg.axis()
+    // .scale(x)
+    // .orient("bottom");
 
     // var yAxis = d3.svg.axis()
     // .scale(y)
@@ -116,13 +132,31 @@
     // .ticks(10, "%");
     var emo = bar.tone_categories[0].tones
     for (var i=0;i<emo.length;i++){
-      str1 = "<span>"+emo[i].tone_name+"</span><div class='back'><div class='front' "
+      str1 = "<div class='col-xs-4 ' style = 'width:100px; margin-left:20px;'>"+emo[i].tone_name+"</div><div class='back col-xs-4'><div class='front' "
       str1 = str1+"style = 'width:"+emo[i].score*100+"%'></div></div>"
-      str1 = str1+"<span>"+emo[i].score+"</span></div>"
+      str1 = str1+"<div class='col-xs-4' style = 'width:auto;'>"+emo[i].score.toFixed(2)+"</div>"
 
-      $('#emotion').append("<div>"+str1+"</div>");
+      $('#emotion').append("<div class='row' >"+str1+"</div>");
       //d3.select('#emotion').append('span').text(cate.tone_name)
 
+    };
+
+    var lan = bar.tone_categories[1].tones
+    for (var i=0;i<lan.length;i++){
+      str1 = "<div class='col-xs-4 ' style = 'width:100px; margin-left:20px;'>"+lan[i].tone_name+"</div><div class='back col-xs-4'><div class='front' "
+      str1 = str1+"style = 'width:"+lan[i].score*100+"%'></div></div>"
+      str1 = str1+"<div class='col-xs-4' style = 'width:auto;'>"+lan[i].score.toFixed(2)+"</div>"
+
+      $('#language').append("<div class='row' >"+str1+"</div>");
+    };
+
+    var soc = bar.tone_categories[2].tones
+    for (var i=0;i<soc.length;i++){
+      str1 = "<div class='col-xs-4 ' style = 'width:100px; margin-left:20px;'>"+soc[i].tone_name+"</div><div class='back col-xs-4'><div class='front' "
+      str1 = str1+"style = 'width:"+soc[i].score*100+"%'></div></div>"
+      str1 = str1+"<div class='col-xs-4' style = 'width:auto;'>"+soc[i].score.toFixed(2)+"</div>"
+
+      $('#social').append("<div class='row' >"+str1+"</div>");
     };
     // var svg = d3.select("#emotion").append("div")
     // .attr("width", width + margin.left + margin.right)

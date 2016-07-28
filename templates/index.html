@@ -2,41 +2,56 @@
 <html>
 
   <head>
-    <title>Python Flask Starter Application</title>
+    <title>Twitter Analyzer</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="static/stylesheets/style.css"> -->
+    <link rel="stylesheet" href="static/stylesheets/style.css">
+    <style type="text/css">
+      #origin_tweet{
+        height: 300px;
+        overflow: scroll;
+      }
+    </style>
   </head>
 
   <body>
     <script type="text/javascript">
+      $(function(){
+        if ($('.form-control').val()==''){
+          $('#result').hide();
+        };
+      });
+
     //console.log('{{term}}')
     // {% for result in results %}
     //   console.log("{{result}}");
     // {% endfor %}
     </script>
-    <table>
-      <tr>
-        <td style= "width:30%;">
-        <td>
-            <h1>Hi there!</h1>
-            <form action="{{ url_for('search') }}" method="post" class="search">
-            <p>Enter Search:</p><input type="text" size="30" name="term" value="{{results.term}}">
-            <input type="submit" value="Search" >
-            </form>
-            <a href="{{url_for('analysis')}}">Click here to Analysis</a>
-          <p>Search Term:{{results.term}}</p>
-          <p>Orignal Number of Tweets: {{results.onum}}</p>
-          <p>Number after cleaning : {{results.fnum}}</p>
-          <ul>
-          {% for result in results.tweet %}
-          <li>{{ result }}</li>
-          {% endfor %}
-          </ul>
-    </table>
-
+    <h1 class="text-center">Twitter Analyzer</h1>
+    <h3 class="text-center">Fordham Universtiy, Center for Digtial Transformation</h2>
+    <form action="{{ url_for('search') }}" method="post" class="search form-inline" >
+      <div class="form-group">
+      <label for="exampleInputName2">Enter Search:</label>
+      <input type="text" class="form-control" name="term" value="{{results.term}}">
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+    <div id="result">
+      <p class="text-center"><a href="{{url_for('analysis')}}" class="btn btn-default ">Click here to Analyze</a></p>
+      <p>Search Term:{{results.term}}</p>
+      <p class="text-center">Orignal Number of Tweets: {{results.onum}}</p>
+      <p>Number after cleaning : {{results.fnum}}</p>
+      <div id="origin_tweet">
+        <ul>
+        {% for result in results.tweet_original %}
+        <li>{{ result }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
   </body>
 
 </html>

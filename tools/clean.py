@@ -7,14 +7,14 @@ def clean_tweets(s):
              u'in', u'into', u'is', u'it', u'its', u'itself', u'just', u'me', u'more', u'most', u'my', u'myself', u'no', u'nor',
              u'not', u'now', u'of', u'off', u'on', u'once', u'only', u'or', u'other', u'our', u'ours', u'ourselves', u'out',
              u'over', u'own', u's', u'same', u'she', u'should', u'so', u'some', u'such', u't', u'than', u'that', u'the', u'their',
-             u'theirs', u'them', u'themselves', u'then', u'there', u'these', u'they', u'this', u'those', u'through', u'to', 
+             u'theirs', u'them', u'themselves', u'then', u'there', u'these', u'they', u'this', u'those', u'through', u'to',
              u'too', u'under', u'until', u'up', u'very', u'was', u'we', u'were', u'what', u'when', u'where', u'which', u'while',
              u'who', u'whom', u'why', u'will', u'with', u'you', u'your', u'yours', u'yourself', u'yourselves']
     #s = re.sub('@.+( |:)',' ', s)
     s = re.sub('\n',' ', s)
     s = re.sub('@', 'ATT', s)
     s = re.sub('http.+( |$)',' ', s)
-    s = re.sub('[^A-Za-z]', ' ', s)  
+    s = re.sub('[^A-Za-z]', ' ', s)
     s = s.replace('RT', ' ')
     s = s.replace('amp', ' ')
     s = s.lower().split()

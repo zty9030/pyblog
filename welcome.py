@@ -45,6 +45,7 @@ def search():
 		RESULT['tweet']=[]
 	else:
 		RESULT['tweet']= [clean_tweets(i) for i in searchterm(RESULT['term'])]
+		RESULT['tweet_original'] = drop_duplicate(searchterm(RESULT['term']))
 		RESULT['onum'] = len(RESULT['tweet'])
 		RESULT['tweet'] = drop_duplicate(RESULT['tweet'])
 		RESULT['fnum'] = len(RESULT['tweet'])

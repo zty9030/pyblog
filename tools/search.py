@@ -3,10 +3,10 @@
 from TwitterAPI import TwitterAPI
 
 def searchterm(term):
-	api_key = "GFtGARDLBK1DLx5xUJc24HBDA"
-	api_secret = "6SA5i1cigGtSLL4e1FiNJ6MQJgun6YMFB4CHG7U54Lkrhs8bpk"
-	access_token_key = "1111734522-aKmSaa9ZLyRmX6gRpxoxBA9uhP0Olkeao3EDKNP"
-	access_token_secret = "xEQ0PIATwNdgsuoZoiPovMFjYbWNsCqNcpCZtK5cvyR2Y"
+	api_key = ""
+	api_secret = ""
+	access_token_key = ""
+	access_token_secret = ""
 
 	api = TwitterAPI(api_key, api_secret, access_token_key, access_token_secret)
 
